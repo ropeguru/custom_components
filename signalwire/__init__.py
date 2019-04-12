@@ -1,4 +1,4 @@
-"""Support for Twilio."""
+"""Support for SignalWire."""
 import voluptuous as vol
 
 import homeassistant.helpers.config_validation as cv
@@ -25,7 +25,7 @@ CONFIG_SCHEMA = vol.Schema({
 
 
 async def async_setup(hass, config):
-    """Set up the Twilio component."""
+    """Set up the SignalWire component."""
     from signalwire.rest import Client as signalwire_client
     if DOMAIN not in config:
         return True
