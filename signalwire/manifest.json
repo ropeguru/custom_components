@@ -1,0 +1,9 @@
+{
+  "domain": "signalwire",
+  "name": "SignalWire",
+  "documentation": "https://www.home-assistant.io/components/twilio",
+  "requirements": [
+    "signalwire==1.5.0"
+  ],
+  "codeowners": []
+}
