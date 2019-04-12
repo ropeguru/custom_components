@@ -1,0 +1,8 @@
+{
+  "domain": "signalwire_sms",
+  "name": "SignalWire sms",
+  "documentation": "https://www.home-assistant.io/components/signalwire_sms",
+  "requirements": [],
+  "dependencies": ["signalwire"],
+  "codeowners": ["@ropeguru"]
+}
