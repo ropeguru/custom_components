@@ -1,4 +1,4 @@
-"""Twilio SMS platform for notify component."""
+"""SignalWire SMS platform for notify component."""
 import logging
 
 import voluptuous as vol
